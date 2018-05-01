@@ -1,0 +1,24 @@
+{
+  "name": "server-trials",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start app.js --no-daemon --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starostin/server-trials.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starostin/server-trials/issues"
+  },
+  "homepage": "https://github.com/starostin/server-trials#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pm2": "^2.10.3"
+  }
+}
